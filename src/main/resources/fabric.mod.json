@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "soulsmp",
+  "version": "${version}",
+  "name": "Spirit SMP",
+  "description": "Fabric conversion of the Spirit SMP Bedrock add-on with timed spirit abilities and Geyser-friendly vanilla mechanics.",
+  "authors": ["Spirit SMP conversion"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": { "main": ["com.soulsmp.SpiritSmp"] },
+  "mixins": ["soulsmp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
